@@ -4,26 +4,65 @@ plugins {
 }
 
 android {
+    namespace 'com.example.embviewer'
     compileSdk 34
+
     defaultConfig {
         applicationId "com.example.embviewer"
-        minSdk 24
+        minSdk 26
         targetSdk 34
         versionCode 1
         versionName "1.0"
-        externalNativeBuild { cmake { cppFlags "-std=c++17" } }
-        ndk { abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64' }
+
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+        }
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++17 -Wall"
+            }
+        }
     }
-    buildTypes { release { minifyEnabled false } }
-    externalNativeBuild { cmake { path "src/main/cpp/CMakeLists.txt" } }
-    buildFeatures { compose true }
-    composeOptions { kotlinCompilerExtensionVersion '1.5.3' }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.5.3'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.25.2"
+        }
+    }
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'androidx.activity:activity-compose:1.9.0'
-    implementation 'androidx.compose.ui:ui:1.7.0'
-    implementation 'androidx.compose.material:material:1.7.0'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+    implementation "androidx.activity:activity-compose:1.9.0"
+    implementation "androidx.compose.ui:ui:1.6.0"
+    implementation "androidx.compose.ui:ui-tooling-preview:1.6.0"
+    implementation "androidx.compose.material3:material3:1.3.1"
+    debugImplementation "androidx.compose.ui:ui-tooling:1.6.0"
 }
