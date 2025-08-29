@@ -1,3 +1,6 @@
 [submodule "external/libembroidery"]
 	path = external/libembroidery
 	url = https://github.com/Embroidermodder/libembroidery
+[submodule "src/main/cpp/libembroidery"]
+	path = src/main/cpp/libembroidery
+	url = https://github.com/Embroidermodder/libembroidery.git

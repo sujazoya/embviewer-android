@@ -1,24 +1,33 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.22.1)
 project(embbridge)
 
-# Path to libembroidery submodule
-set(LIBEMBROIDERY_DIR ${CMAKE_SOURCE_DIR}/../../../external/libembroidery)
+set(LIBEMBROIDERY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libembroidery/src)
 
-# Build libembroidery as a subdirectory if its CMakeLists exists
-if(EXISTS ${LIBEMBROIDERY_DIR}/CMakeLists.txt)
-    add_subdirectory(${LIBEMBROIDERY_DIR} libembroidery_build)
-endif()
+set(LIBEMB_SRC
+        ${LIBEMBROIDERY_DIR}/compress.c
+        ${LIBEMBROIDERY_DIR}/data.c
+        ${LIBEMBROIDERY_DIR}/emb_convert.c
+        ${LIBEMBROIDERY_DIR}/formats.c
+        ${LIBEMBROIDERY_DIR}/geometry.c
+        ${LIBEMBROIDERY_DIR}/pattern.c
+        ${LIBEMBROIDERY_DIR}/script.c
+)
 
-# Add your JNI library
-add_library(embbridge SHARED embbridge.cpp)
+add_library(
+        embbridge
+        SHARED
+        embbridge.cpp
+        ${LIBEMB_SRC}
+)
 
-# Include directories for headers (latest libembroidery structure)
-if(EXISTS ${LIBEMBROIDERY_DIR})
-    target_include_directories(embbridge PRIVATE
-        ${LIBEMBROIDERY_DIR}/src/embroidery   # contains emb-pattern.h, emb-file-read.h, emb-file-write.h
-    )
-endif()
+target_include_directories(
+        embbridge PRIVATE
+        ${LIBEMBROIDERY_DIR}
+)
 
-# Link Android log library for debug output
 find_library(log-lib log)
-target_link_libraries(embbridge PRIVATE ${log-lib})
+
+target_link_libraries(
+        embbridge
+        ${log-lib}
+)

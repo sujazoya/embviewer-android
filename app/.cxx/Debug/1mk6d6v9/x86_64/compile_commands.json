@@ -1,0 +1,42 @@
+[
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\embbridge.cpp.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\embbridge.cpp\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\embbridge.cpp"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\compress.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\compress.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\compress.c"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\data.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\data.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\data.c"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\emb_convert.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\emb_convert.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\emb_convert.c"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\formats.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\formats.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\formats.c"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\geometry.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\geometry.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\geometry.c"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\pattern.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\pattern.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\pattern.c"
+},
+{
+  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/1mk6d6v9/x86_64",
+  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembbridge_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embbridge.dir\\libembroidery\\src\\script.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\script.c\"",
+  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\script.c"
+}
+]
