@@ -6,8 +6,9 @@
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, "embbridge", __VA_ARGS__)
 
 extern "C" {
-#include "embroidery.h"
+#include "libembroidery/src/embroidery.h"
 }
+
 
 extern "C" JNIEXPORT jint JNICALL
 Java_com_example_embviewer_NativeBridge_convertEmbToDst(

@@ -1,0 +1,20 @@
+# ninja log v5
+12	98	7782399085575021	CMakeFiles/embbridge.dir/libembroidery/src/emb_convert.c.o	3a9d575d18cb678a
+8	108	7782399085600192	CMakeFiles/embbridge.dir/libembroidery/src/data.c.o	db1560b6b99c040e
+0	116	7782399085615267	CMakeFiles/embbridge.dir/libembroidery/src/compress.c.o	d280a62a40f0c848
+22	139	7782399085980929	CMakeFiles/embbridge.dir/libembroidery/src/script.c.o	ac187d6d4e7f9149
+4	144	7782399086055812	CMakeFiles/embbridge.dir/embbridge.cpp.o	eb679c379605548c
+26	154	7782399086095922	CMakeFiles/embbridge.dir/libembroidery/src/geometry.c.o	cb5740f37146063a
+33	266	7782399087271117	CMakeFiles/embbridge.dir/libembroidery/src/pattern.c.o	263f5ff8070ba30b
+17	334	7782399087924698	CMakeFiles/embbridge.dir/libembroidery/src/formats.c.o	72417f3035947726
+334	552	7782399089273473	N:/Android Apps/embviewer-android/app/build/intermediates/cxx/Debug/51153y3f/obj/x86_64/libembbridge.so	b6c72a97d4a84389
+0	7	0	clean	94473c7796d82e58
+1	89	7782407122547664	CMakeFiles/embbridge.dir/libembroidery/src/compress.c.o	d280a62a40f0c848
+17	95	7782407122602918	CMakeFiles/embbridge.dir/libembroidery/src/data.c.o	db1560b6b99c040e
+22	99	7782407122644485	CMakeFiles/embbridge.dir/libembroidery/src/emb_convert.c.o	3a9d575d18cb678a
+33	142	7782407122968562	CMakeFiles/embbridge.dir/libembroidery/src/script.c.o	ac187d6d4e7f9149
+6	159	7782407123205553	CMakeFiles/embbridge.dir/embbridge.cpp.o	eb679c379605548c
+40	170	7782407123284423	CMakeFiles/embbridge.dir/libembroidery/src/geometry.c.o	cb5740f37146063a
+28	249	7782407124066310	CMakeFiles/embbridge.dir/libembroidery/src/pattern.c.o	263f5ff8070ba30b
+11	318	7782407124650066	CMakeFiles/embbridge.dir/libembroidery/src/formats.c.o	72417f3035947726
+318	421	7782407125830465	N:/Android Apps/embviewer-android/app/build/intermediates/cxx/Debug/51153y3f/obj/x86_64/libembbridge.so	b6c72a97d4a84389

@@ -1,0 +1,20 @@
+                        -HN:\Android Apps\embviewer-android\app\src\main\cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=26
+-DANDROID_PLATFORM=android-26
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=K:\AndroidConfigs\User\AppData\Local\Android\Sdk\ndk\25.2.9519653
+-DCMAKE_ANDROID_NDK=K:\AndroidConfigs\User\AppData\Local\Android\Sdk\ndk\25.2.9519653
+-DCMAKE_TOOLCHAIN_FILE=K:\AndroidConfigs\User\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=K:\AndroidConfigs\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
+-DCMAKE_CXX_FLAGS=-std=c++17
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=N:\Android Apps\embviewer-android\app\build\intermediates\cxx\Debug\2i4z1r5a\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=N:\Android Apps\embviewer-android\app\build\intermediates\cxx\Debug\2i4z1r5a\obj\x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-BN:\Android Apps\embviewer-android\app\.cxx\Debug\2i4z1r5a\x86_64
+-GNinja
+-DANDROID_STL=c++_shared
+                        Build command args: []
+                        Version: 2

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EmbViewer</string>
+    <string name="select_emb_file">Select EMB File</string>
+    <string name="selected_file">Selected: %s</string>
+    <string name="convert_to_dst">Convert to DST</string>
+    <string name="conversion_successful">Conversion Successful!</string>
+    <string name="conversion_failed">Conversion Failed</string>
+    <string name="metadata">File Metadata:</string>
+    <string name="share_file">Share File</string>
+    <string name="retry">Retry</string>
+    <string name="permission_required">Permissions Required</string>
+    <string name="storage_permission_explanation">This app needs storage permissions to read embroidery files and save converted files.</string>
+    <string name="grant_permission">Grant Permissions</string>
+</resources>

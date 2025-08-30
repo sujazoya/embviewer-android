@@ -1,0 +1,12 @@
+# ninja log v5
+25	93	7782909430731524	CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o	7ba69e99f73f1318
+12	101	7782909430741551	CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o	1577fcf94fe676a3
+8	110	7782909430793331	CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o	3266e2c56a9f2cd9
+34	120	7782909430970884	CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o	56f3b519ddae7d0c
+16	126	7782909431098645	CMakeFiles/embroidery-converter.dir/embbridge.cpp.o	472f349095c8ed8b
+20	141	7782909431195168	CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o	58259e9f06d975e3
+39	228	7782909432072871	CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o	5c06986471a05c52
+4	305	7782909432887473	CMakeFiles/embroidery-converter.dir/emb_jni.cpp.o	6a359f086d8de32c
+29	312	7782909432867423	CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o	a48515e6bcce96f1
+0	312	7782909432887473	CMakeFiles/embroidery-converter.dir/native-lib.cpp.o	47aeead924ac0851
+313	427	7782909434066694	N:/Android Apps/embviewer-android/app/build/intermediates/cxx/Debug/2i4z1r5a/obj/x86/libembroidery-converter.so	e875a9817261680f

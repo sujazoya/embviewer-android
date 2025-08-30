@@ -1,0 +1,3 @@
+N:/Android Apps/embviewer-android/app/.cxx/Debug/555v6r50/x86_64/CMakeFiles/embbridge.dir
+N:/Android Apps/embviewer-android/app/.cxx/Debug/555v6r50/x86_64/CMakeFiles/edit_cache.dir
+N:/Android Apps/embviewer-android/app/.cxx/Debug/555v6r50/x86_64/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,21 @@
+# ninja log v5
+11	304	7782858317934024	CMakeFiles/embroidery-converter.dir/pattern.cpp.o	b4d4ab7010335010
+33	315	7782857578203431	CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o	967dc063c75b04da
+11	83	7782857575886176	CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o	102f6bba78a8638f
+7	98	7782907413475191	CMakeFiles/embroidery-converter.dir/embbridge.cpp.o	627f73d7e69e428d
+28	101	7782857576007008	CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o	f4b4285e20963621
+15	93	7782857575961796	CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o	7bf1c93461a7e3f8
+38	117	7782857576244344	CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o	75a562ee7fab602b
+24	127	7782857576369409	CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o	6046aca9ec98e4f3
+44	220	7782857577299020	CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o	bc806854ba6e89e8
+10	308	7782864475629344	CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.cpp.o	32e4e90120118f03
+11	282	7782907415295698	CMakeFiles/embroidery-converter.dir/emb_jni.cpp.o	e2edb8d9e7f35eeb
+2	276	7782907415252030	CMakeFiles/embroidery-converter.dir/native-lib.cpp.o	5874beda85d4e4f6
+7	74	7782909120520631	CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o	dc30352ce950868b
+12	81	7782909120530654	CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o	65c5bb241499ca53
+2	88	7782909120530654	CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o	7873ec9df35bbe7f
+30	108	7782909120866199	CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o	4797fe91e862efef
+26	120	7782909120981225	CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o	81263652611ab30a
+21	188	7782909121656176	CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o	87ba4a840684551f
+16	270	7782909122434118	CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o	625d839bf9a24ec2
+270	372	7782909123519002	N:/Android Apps/embviewer-android/app/build/intermediates/cxx/Debug/2i4z1r5a/obj/x86_64/libembroidery-converter.so	28f0e199fdbf082c

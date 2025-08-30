@@ -1,0 +1,10 @@
+manifest 
+
+ <application
+        android:allowBackup="true"
+        android:label="EmbViewer"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EmbViewer"
+        android:requestLegacyExternalStorage="true">

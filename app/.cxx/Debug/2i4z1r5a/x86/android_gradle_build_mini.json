@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "N:\\Android Apps\\embviewer-android\\app\\.cxx\\Debug\\2i4z1r5a\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "N:\\Android Apps\\embviewer-android\\app\\.cxx\\Debug\\2i4z1r5a\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "embroidery-converter::@6890427a1f51a3e7e1df": {
+      "artifactName": "embroidery-converter",
+      "abi": "x86",
+      "output": "N:\\Android Apps\\embviewer-android\\app\\build\\intermediates\\cxx\\Debug\\2i4z1r5a\\obj\\x86\\libembroidery-converter.so",
+      "runtimeFiles": []
+    }
+  }
+}

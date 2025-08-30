@@ -1,33 +1,34 @@
 cmake_minimum_required(VERSION 3.22.1)
-project(embbridge)
 
-set(LIBEMBROIDERY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libembroidery/src)
+project("embroidery-converter")
 
-set(LIBEMB_SRC
-        ${LIBEMBROIDERY_DIR}/compress.c
-        ${LIBEMBROIDERY_DIR}/data.c
-        ${LIBEMBROIDERY_DIR}/emb_convert.c
-        ${LIBEMBROIDERY_DIR}/formats.c
-        ${LIBEMBROIDERY_DIR}/geometry.c
-        ${LIBEMBROIDERY_DIR}/pattern.c
-        ${LIBEMBROIDERY_DIR}/script.c
+# Collect all C sources from libembroidery
+file(GLOB LIBEMB_SOURCES
+        ${CMAKE_CURRENT_SOURCE_DIR}/libembroidery/src/*.c
 )
 
-add_library(
-        embbridge
-        SHARED
+# Debug: print to verify sources found
+message(STATUS "LibEmbroidery sources: ${LIBEMB_SOURCES}")
+
+# Build shared library
+add_library(embroidery-converter SHARED
+        native-lib.cpp
+        emb_jni.cpp
         embbridge.cpp
-        ${LIBEMB_SRC}
+        ${LIBEMB_SOURCES}
 )
 
-target_include_directories(
-        embbridge PRIVATE
-        ${LIBEMBROIDERY_DIR}
+# Include dirs
+target_include_directories(embroidery-converter PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR}/libembroidery/src
 )
 
+# Link Android log
 find_library(log-lib log)
 
-target_link_libraries(
-        embbridge
+target_link_libraries(embroidery-converter
         ${log-lib}
+        atomic
+        m
 )
