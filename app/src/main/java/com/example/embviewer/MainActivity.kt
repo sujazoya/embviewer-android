@@ -1,45 +1,42 @@
 package com.example.embviewer
 
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.viewModels
-import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.dynamicDarkColorScheme
-import androidx.compose.material3.dynamicLightColorScheme
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.platform.LocalContext
+import androidx.core.content.FileProvider
 import com.example.embviewer.ui.screens.MainScreen
-import com.example.embviewer.ui.viewmodel.ConverterViewModel
+import com.example.embviewer.ui.theme.EmbViewerTheme
+import java.io.File
 
 class MainActivity : ComponentActivity() {
-    private val viewModel: ConverterViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContent {
-            AppTheme {
-                MainScreen(viewModel = viewModel)
+            EmbViewerTheme {
+                MainScreen()
             }
         }
     }
-}
 
-@Composable
-fun AppTheme(
-    content: @Composable () -> Unit
-) {
-    val context = LocalContext.current
-    val colorScheme = if (isSystemInDarkTheme()) {
-        dynamicDarkColorScheme(context)
-    } else {
-        dynamicLightColorScheme(context)
+    // Share converted DST file
+    fun shareFile(context: Context, file: File) {
+        val uri: Uri = FileProvider.getUriForFile(
+            context,
+            "${context.packageName}.provider",
+            file
+        )
+
+        val shareIntent = Intent(Intent.ACTION_SEND).apply {
+            type = "application/octet-stream"
+            putExtra(Intent.EXTRA_STREAM, uri)
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+        }
+
+        context.startActivity(
+            Intent.createChooser(shareIntent, "Share DST file")
+        )
     }
-
-    MaterialTheme(
-        colorScheme = colorScheme,
-        content = content
-    )
 }

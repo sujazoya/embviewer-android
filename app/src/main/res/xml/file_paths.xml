@@ -13,7 +13,9 @@
     <!-- Optional: Allow sharing files from app files directory -->
     <files-path name="files" path="."/>
     <external-cache-path name="external_cache" path="." />
-
+    <external-files-path
+        name="shared_files"
+        path="." />
 
 
 </paths>

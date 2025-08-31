@@ -11,4 +11,10 @@
     <string name="permission_required">Permissions Required</string>
     <string name="storage_permission_explanation">This app needs storage permissions to read embroidery files and save converted files.</string>
     <string name="grant_permission">Grant Permissions</string>
+       <string name="pick_file">Pick .emb File</string>
+    <string name="convert">Convert to DST</string>
+    <string name="share">Share</string>
+    <string name="selected">Selected: %1$s</string>
+    <string name="conversion_success">Conversion successful: %1$s</string>
+    <string name="preview">Preview</string>
 </resources>

@@ -1,0 +1,23 @@
+# ninja log v5
+17	77	7783345455945890	CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o	ab7e7cbb2c4e8f73
+13	139	7783345456530477	CMakeFiles/embroidery-converter.dir/embbridge.cpp.o	cf995c9bd0c24c21
+26	109	7783345456257187	CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o	85b621fc96a311a
+9	187	7783345457044267	CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o	a7e10c3e65ade16a
+903	995	7783345465091119	N:/Android Apps/embviewer-android/app/build/intermediates/cxx/RelWithDebInfo/o2t6m586/obj/x86/libembroidery-converter.so	34ece3182b71b03
+1	317	7783345458312129	CMakeFiles/embroidery-converter.dir/emb_jni.cpp.o	3eb77df5ca5a924b
+40	146	7783345456540507	CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o	9978f44de00b4bd8
+6	329	7783345458452581	CMakeFiles/embroidery-converter.dir/native-lib.cpp.o	9ee3a91b097df16f
+35	201	7783345457202897	CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o	97daf7d19e04eb52
+30	654	7783345461657356	CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o	e8aec8079a9d1f0b
+21	903	7783345464156628	CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o	3ad5e15d603e17f0
+0	9	0	clean	94473c7796d82e58
+1	118	7783736420780753	build.ninja	b8562e476aefd646
+9	68	7783736422754191	CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o	ab7e7cbb2c4e8f73
+14	94	7783736423012564	CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o	85b621fc96a311a
+33	130	7783736423307090	CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o	9978f44de00b4bd8
+18	178	7783736423858373	CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o	97daf7d19e04eb52
+5	185	7783736423914183	CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o	a7e10c3e65ade16a
+1	402	7783736426084086	CMakeFiles/embroidery-converter.dir/native-lib.cpp.o	9ee3a91b097df16f
+28	684	7783736428840453	CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o	e8aec8079a9d1f0b
+23	934	7783736431388675	CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o	3ad5e15d603e17f0
+934	1035	7783736432383606	N:/Android Apps/embviewer-android/app/build/intermediates/cxx/RelWithDebInfo/o2t6m586/obj/x86/libembroidery-converter.so	5e04eca7d27f3edd

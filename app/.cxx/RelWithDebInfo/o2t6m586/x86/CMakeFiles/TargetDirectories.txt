@@ -1,0 +1,3 @@
+N:/Android Apps/embviewer-android/app/.cxx/RelWithDebInfo/o2t6m586/x86/CMakeFiles/embroidery-converter.dir
+N:/Android Apps/embviewer-android/app/.cxx/RelWithDebInfo/o2t6m586/x86/CMakeFiles/edit_cache.dir
+N:/Android Apps/embviewer-android/app/.cxx/RelWithDebInfo/o2t6m586/x86/CMakeFiles/rebuild_cache.dir

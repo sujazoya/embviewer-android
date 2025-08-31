@@ -57,22 +57,6 @@ build CMakeFiles/embroidery-converter.dir/native-lib.cpp.o: CXX_COMPILER__embroi
   OBJECT_DIR = CMakeFiles\embroidery-converter.dir
   OBJECT_FILE_DIR = CMakeFiles\embroidery-converter.dir
 
-build CMakeFiles/embroidery-converter.dir/emb_jni.cpp.o: CXX_COMPILER__embroidery-converter_Debug N$:/Android$ Apps/embviewer-android/app/src/main/cpp/emb_jni.cpp || cmake_object_order_depends_target_embroidery-converter
-  DEFINES = -Dembroidery_converter_EXPORTS
-  DEP_FILE = CMakeFiles\embroidery-converter.dir\emb_jni.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I"N:/Android Apps/embviewer-android/app/src/main/cpp" -I"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src"
-  OBJECT_DIR = CMakeFiles\embroidery-converter.dir
-  OBJECT_FILE_DIR = CMakeFiles\embroidery-converter.dir
-
-build CMakeFiles/embroidery-converter.dir/embbridge.cpp.o: CXX_COMPILER__embroidery-converter_Debug N$:/Android$ Apps/embviewer-android/app/src/main/cpp/embbridge.cpp || cmake_object_order_depends_target_embroidery-converter
-  DEFINES = -Dembroidery_converter_EXPORTS
-  DEP_FILE = CMakeFiles\embroidery-converter.dir\embbridge.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I"N:/Android Apps/embviewer-android/app/src/main/cpp" -I"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src"
-  OBJECT_DIR = CMakeFiles\embroidery-converter.dir
-  OBJECT_FILE_DIR = CMakeFiles\embroidery-converter.dir
-
 build CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o: C_COMPILER__embroidery-converter_Debug N$:/Android$ Apps/embviewer-android/app/src/main/cpp/libembroidery/src/compress.c || cmake_object_order_depends_target_embroidery-converter
   DEFINES = -Dembroidery_converter_EXPORTS
   DEP_FILE = CMakeFiles\embroidery-converter.dir\libembroidery\src\compress.c.o.d
@@ -137,7 +121,7 @@ build CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o: C_COMPIL
 #############################################
 # Link the shared library N:\Android Apps\embviewer-android\app\build\intermediates\cxx\Debug\2i4z1r5a\obj\x86_64\libembroidery-converter.so
 
-build N$:/Android$ Apps/embviewer-android/app/build/intermediates/cxx/Debug/2i4z1r5a/obj/x86_64/libembroidery-converter.so: CXX_SHARED_LIBRARY_LINKER__embroidery-converter_Debug CMakeFiles/embroidery-converter.dir/native-lib.cpp.o CMakeFiles/embroidery-converter.dir/emb_jni.cpp.o CMakeFiles/embroidery-converter.dir/embbridge.cpp.o CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o | K$:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/26/liblog.so
+build N$:/Android$ Apps/embviewer-android/app/build/intermediates/cxx/Debug/2i4z1r5a/obj/x86_64/libembroidery-converter.so: CXX_SHARED_LIBRARY_LINKER__embroidery-converter_Debug CMakeFiles/embroidery-converter.dir/native-lib.cpp.o CMakeFiles/embroidery-converter.dir/libembroidery/src/compress.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/data.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/emb_convert.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/formats.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/geometry.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/pattern.c.o CMakeFiles/embroidery-converter.dir/libembroidery/src/script.c.o | K$:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/26/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/26/liblog.so  -latomic  -lm  -latomic -lm

@@ -6,16 +6,6 @@
 },
 {
   "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/2i4z1r5a/x86",
-  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembroidery_converter_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp\" -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -o CMakeFiles\\embroidery-converter.dir\\emb_jni.cpp.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\emb_jni.cpp\"",
-  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\emb_jni.cpp"
-},
-{
-  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/2i4z1r5a/x86",
-  "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembroidery_converter_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp\" -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -o CMakeFiles\\embroidery-converter.dir\\embbridge.cpp.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\embbridge.cpp\"",
-  "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\embbridge.cpp"
-},
-{
-  "directory": "N:/Android Apps/embviewer-android/app/.cxx/Debug/2i4z1r5a/x86",
   "command": "K:\\AndroidConfigs\\User\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=i686-none-linux-android26 --sysroot=K:/AndroidConfigs/User/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dembroidery_converter_EXPORTS -I\"N:/Android Apps/embviewer-android/app/src/main/cpp\" -I\"N:/Android Apps/embviewer-android/app/src/main/cpp/libembroidery/src\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\embroidery-converter.dir\\libembroidery\\src\\compress.c.o -c \"N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\compress.c\"",
   "file": "N:\\Android Apps\\embviewer-android\\app\\src\\main\\cpp\\libembroidery\\src\\compress.c"
 },
